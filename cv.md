@@ -1,6 +1,6 @@
 # Resume
 
-1. Name: ###### Yury Ulivanov
+1. Name: **Yury Ulivanov**
 
 2. Contact info:
     * Email: vr0rtex@mail.ru
