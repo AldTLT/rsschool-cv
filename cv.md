@@ -17,3 +17,12 @@ I am quite motivated, and I like to study, these are my strongest qualities that
     * Angular
     * GitHub
     * A little SQL, JS, CSS and HTML.
+
+5. [A task from courses of the .NET developer from EPAM](https://github.com/AldTLT/Modul09/blob/master/Modul09/ArrayBubbleSort/BubbleSorting.cs)
+
+6. As part of the .NET developer’s course, a test project was completed - a small client server application for calculating the cost of a car insurance policy based on user data with registration and authorization.
+[Test project from course](https://github.com/AldTLT/Insurance)
+
+7. I finished the online courses "Programming in C#" and "Programming Technologies" from the Ural Federal University. I was trained in the online course ".NET developer" by EPAM, and after that I finished course .NET developer from EPAM in Togliatti.
+
+8. English: elementary.
