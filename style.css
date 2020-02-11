@@ -2,75 +2,95 @@
     box-sizing: border-box;
 }
 
-html {
+.container {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-title {
-
+nav {
+    z-index: 10;
+    margin-top: 0;
 }
 
-h1 {
-    width: 500px;
+nav h1 {
+    width: inherit;
     padding: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
     text-align: center;
+    color: white;
+    background-color: #466995;
+}
+
+nav ul {
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(4, 1fr);
+    width: inherit;
+    padding-left: 0;
+    margin-top: 0;
+    color: white;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 5px 10px;
+    text-align: center;
+    text-orientation: sideways;
+    font-family: 'Gill Sans', Calibri, sans-serif;
+    border: 1px solid #304766;
+    background-color: #466995;
+}
+
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+main {
+    font-weight: 500;
+    font-size: 1.2rem;
+    font-family: 'Source Sans Pro', Arial, sans-serif;
 }
 
 img {
     position: relative;
     margin: 10px;
+    border: 4px solid #466995;
 }
 
-nav ul {
-    width: 500px;
-    padding-left: 10px;
-    color: white;
+hr {
+    width: 700px;
+    height: 2px;
+    margin-left: 0;
+    background-color: #304766;
+    border: none;
 }
 
-nav ul li{
-    display: inline-block;
-    padding: 5px 10px;
-    background-color: #466995;    
-}
-
-nav a {
-    color: white;
+.code-link {
     text-decoration: none;
-    text-transform: uppercase;
+}
+
+.content {
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-left: 10px;
 }
 
 #resume-content-list {
     position: relative;
-    width: 500px;
+    width: inherit;
+    background-color: #99c6d3;
+    border: 2px solid #466995;
+    border-radius: 10px;
 }
 
 #name {
-    padding: 10px;
-}
-
-#contact-info {
-    padding: 10px;
-}
-
-#goal {
-    padding: 10px;
-}
-
-#scill {
-    padding: 10px;
-}
-
-#code-example {
-    padding: 10px;
-}
-
-#experience {
-    padding: 10px;
-}
-
-#education {
-    padding: 10px;
+    font-weight: 600;
 }
 
 #english {
-    padding: 10px;
+    padding-top: 0;
+    padding-left: 10px;
 }

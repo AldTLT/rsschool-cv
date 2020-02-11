@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="style.css">
-        <title>Resume</title>
-    </head>
-    <body>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <title>Resume</title>
+</head>
+
+<body>
+    <div class="container">
         <header>
             <nav>
                 <h1>Resume</h1>
@@ -24,37 +28,40 @@
         <main>
             <img src="./assets/photo.jpg" alt="Yury Ulivanov" width="150" height="200">
             <ol id="resume-content-list">
-                <li id="name">
+                <li class="content" id="name">
                     Name: Yury Ulivanov
-                </li>
-                <li id="contact-info">
+                    <hr>
+                </li>                
+                <li class="content" id="contact-info">
                     Contact info:
                     <ul>
                         <li>
-                            Email: vr0rtex@mail.ru                            
+                            Email: vr0rtex@mail.ru
                         </li>
                         <li>
                             Phone: 8(927)781-83-76
                         </li>
-                    </ul>                    
-                </li>
-                <li id="goal">
+                    </ul>
+                    <hr>
+                </li>                
+                <li class="content" id="goal">
                     <p>
-                        Since school I liked programming, so I always 
-                        wanted to work in this area. At the moment, 
-                        my job is programming industrial controllers, 
-                        but I would like to go into software development. 
+                        Since school I liked programming, so I always
+                        wanted to work in this area. At the moment,
+                        my job is programming industrial controllers,
+                        but I would like to go into software development.
                         Now my goal is a full stack developer.
                     </p>
                     <p>
-                        I am quite motivated, and I like to study, 
-                        these are my strongest qualities that will help 
-                        in further work. Despite the busy days, I always 
-                        find time to study, maybe a foreign language, 
+                        I am quite motivated, and I like to study,
+                        these are my strongest qualities that will help
+                        in further work. Despite the busy days, I always
+                        find time to study, maybe a foreign language,
                         programming, or something else.
                     </p>
-                </li>
-                <li id="scill">
+                    <hr>
+                </li>                
+                <li class="content" id="scill">
                     Scills:
                     <ul>
                         <li>.NET via C#</li>
@@ -65,33 +72,40 @@
                         <li>GitHub</li>
                         <li>A little SQL, JS, CSS and HTML</li>
                     </ul>
-                </li>
-                <li id="code-example">
-                    <a href="https://github.com/AldTLT/Modul09/blob/master/Modul09/ArrayBubbleSort/BubbleSorting.cs">
-                        A task from courses of the .NET developer from EPAM
+                    <hr>
+                </li>                
+                <li class="content" id="code-example">
+                    <a class="code-link"
+                        href="https://github.com/AldTLT/Modul09/blob/master/Modul09/ArrayBubbleSort/BubbleSorting.cs">
+                        A task from courses of the .NET developer from EPAM.
                     </a>
-                </li>
-                <li id="experience">
+                    <hr>
+                </li>                
+                <li class="content" id="experience">
                     <p>As part of the .NET developer’s course, a test project was completed
-                        - a small client server application for calculating the cost of a 
+                        - a small client server application for calculating the cost of a
                         car insurance policy based on user data with registration and authorization.
                     </p>
-                    <a href="https://github.com/AldTLT/Insurance">
-                        Test project from course
+                    <a class="code-link" href="https://github.com/AldTLT/Insurance">
+                        Test project from course.
                     </a>
-                </li>
-                <li id="education">
+                    <hr>
+                </li>                
+                <li class="content" id="education">
                     <p>
-                        I finished the online courses "Programming in C#" and "Programming 
-                        Technologies" from the Ural Federal University. I was trained in the 
-                        online course ".NET developer" by EPAM, and after that I finished 
+                        I finished the online courses "Programming in C#" and "Programming
+                        Technologies" from the Ural Federal University. I was trained in the
+                        online course ".NET developer" by EPAM, and after that I finished
                         course .NET developer from EPAM in Togliatti.
                     </p>
-                </li>
+                    <hr>
+                </li>                
                 <li id="english">
-                    <p>English: elementary.</p>
+                    <p>English: elementary (A2).</p>
                 </li>
             </ol>
         </main>
-    </body>
+    </div>
+</body>
+
 </html>
